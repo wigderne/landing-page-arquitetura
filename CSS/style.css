@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+
+#titulo-topoSuperior{
+    margin-left: 62px;
+    margin-top: 0px;
+    padding-top: 150px;
+
+}
+
+#texto-topoSuperior{
+    margin-left: 62px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#topo{
+    background-color: #303030;
+    color: aliceblue;
+    height: 350px;
+
+}
+
+#coluna-informacional{
+    background-color: #F9F9F9;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+
+.column-nowrap {
+	flex-flow: column nowrap;
+}
+
+/* Flex Container */
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	border: 0px solid #ccc;
+}
+
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	background: #F9F9F9;
+	text-align: left;
+	font-size: 25px; 
+}
+
+.item2 {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 0px;
+	background: #F9F9F9;
+	text-align: left;
+	font-size: 15px;
+    padding-bottom: 50px;
+}
+
+#foto{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 400px;
+}
+
+#secao-imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-imagem{
+    color: black;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+#texto-imagem{
+    color: black;
+    margin-top: 15px;
+    margin-left: 150px;
+    font-size: 15px;
+}
+
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    margin-top: 50px;
+}
+
+
+#titulo-formulario{
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+}
+
+input{
+    width: 286px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color: #C07212;
+    height: 40px;
+    width: 200px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #bd996d ;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #cecccb6b    ;
+    transition-duration: 0.5s;
+}
